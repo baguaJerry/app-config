@@ -10,3 +10,6 @@ logging: # <----By default only log levels of ERROR, WARN and INFO will be logge
   level:
     io:
       pivotal: DEBUG
+      
+greeting:
+  displayFortune: false
