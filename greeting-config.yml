@@ -5,3 +5,8 @@ security:
 management:
   security:
     enabled: false # turn off securing the actuator endpoints
+    
+logging: # <----By default only log levels of ERROR, WARN and INFO will be logged.  Update so that we will get the DEBUG logs also.
+  level:
+    io:
+      pivotal: DEBUG
